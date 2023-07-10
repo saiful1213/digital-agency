@@ -1,0 +1,291 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+.text-red{
+   color: red;
+}
+.bg-red{
+   background-color: red;
+   color: white;
+}
+.bg-red:hover{
+   background-color: transparent;
+   border: 1px solid red;
+}
+.btn{
+   padding: 15px 20px;
+   border-radius: 10px;
+   border: 0;
+   font-size: 17px;
+}
+/* navigation part start */
+nav{
+   position: fixed;
+   width: 100%;
+}
+.nav-container{
+   display: flex;
+   background-color: gray;
+   justify-content: space-around;
+   padding: 10px 20px;
+   align-items: center;
+}
+.nav-menu ul{
+   list-style: none;
+   display: flex;
+   gap: 30px;
+   font-size: 25px;
+}
+.nav-menu a{
+   text-decoration: none;
+   color: aliceblue;
+}
+/* banner part start */
+.banner-container{
+   height: 100vh;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   background: url('/asset/image/background.jpg'), linear-gradient(rgba(0, 0, 0, 0.411), rgba(0, 0, 0, 0.253));
+   background-blend-mode: overlay;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+.banner-parent{
+   width: 60%;
+   margin: auto;
+}
+.banner-parent h1{
+   font-size: 65px;
+   font-weight: bold;
+   margin-bottom: 10px;
+   color: white;
+}
+.banner-parent p{
+   color: white;
+   font-size: 21px;
+   line-height: 1.5;
+   margin-bottom: 25px;
+}
+.banner-parent button{
+   margin-right: 10px;
+}
+/* service section start */
+.service-container{
+   height: 700px;
+   background: url('/asset/image/footer-bg.png'), linear-gradient(rgb(0, 0, 0),rgba(0, 0, 0, 0.925));
+   background-blend-mode: overlay;
+   padding: 20px;
+   display: flex;
+   align-items: center;
+}
+.left-div{
+   width: 50%;
+   padding: 10px;
+}
+.left-div button{
+   margin-bottom: 25px;
+}
+.left-div h2{
+   color: white;
+   font-size: 45px;
+   font-weight: bold;
+   margin-bottom: 25px;
+}
+.left-div p{
+   color: rgba(255, 255, 255, 0.801);
+   font-size: 19px;
+   margin-bottom: 25px;
+}
+.left-div ol{
+   color: rgba(255, 255, 255, 0.856);
+   list-style-position: inside;
+   margin-bottom: 35px;
+}
+.author-intro{
+   display: flex;
+   align-items: center;
+}
+.author-intro img{
+   height: 100px;
+   width: 100px;
+   border-radius: 50%;
+}
+.author-container{
+   display: flex;
+   align-items: center;
+}
+.margin-right{
+   margin: 0 20px;
+   border-right: 1px solid rgb(255, 0, 0);
+   padding-right: 35px;
+}
+.orange{
+   color: orangered;
+}
+.margin-right h3{
+   color: white;
+}
+.right-div{
+   width: 50%;
+}
+.cards{
+   display: flex;
+   padding-top: 15px;
+   justify-content: space-around;
+}
+.card{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 250px;
+   width: 300px;
+   background-color: white;
+   text-align: center;
+   border-radius: 10px;
+}
+.card-img{
+   height: 150px;
+   width: 150px;
+}
+/* appoinment section start  */
+.appoinment-container{
+   background-color: rgb(255, 0, 0);
+   color: white;
+   width: 70%;
+   margin: auto;
+   border-radius: 10px;
+   padding: 35px 34px;
+   margin-top: -45px;
+   margin-bottom: 35px;
+   display: flex;
+   align-items: center;
+}
+.firstDiv{
+   display: flex;
+}
+.imgDiv img{
+   height: 60px;
+   width: 60px;
+   margin-right: 20px;
+}
+.text-div{
+   border-right: 2px solid gray;
+   padding-right: 25px;
+}
+.text-big{
+   font-size: 35px;
+}
+.secondtDiv p{
+   width: 70%;
+   margin: auto;
+}
+.thirdDiv button{
+   padding: 20px 25px;
+   border-radius: 15px;
+   border: 0;
+}
+/*service section start */
+.blog-container{
+   margin: 50px 100px;
+}
+.title{
+   text-align: center;
+   margin-bottom: 20px;
+   font-size: 50px;
+}
+.desc{
+   text-align: center;
+   font-size: 22px;
+   line-height: 1.3;
+}
+.blog-card-container{
+   display: flex;
+   justify-content: space-between;
+   margin: 100px 0;
+   gap: 20px;
+}
+.blog-card{
+   width: 350px;
+   box-shadow: 5px 3px 8px rgba(128, 128, 128, 0.767);
+   border-radius: 15px;
+}
+.blog-card-img{
+   width: 100%;
+   border-top-left-radius: 15px;
+   border-top-right-radius: 15px;
+}
+.blog-card-title{
+   font-size: 22px;
+   margin: 5px 0;
+   padding: 8px;
+   color: rgba(15, 2, 2, 0.911);
+}
+.blog-card-desc{
+   font-size: 18px;
+   color: rgba(0, 0, 0, 0.788);
+   padding: 10px;
+   margin-bottom: 10px;
+}
+/* footer part style  */
+footer{
+   background: url('/asset/image/footer-bg.png'), linear-gradient(rgba(0, 0, 0, 0.932),rgba(0, 0, 0, 0.829));
+   background-blend-mode: overlay;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   height: 65vh;
+   padding: 50px;
+}
+.footer-container{
+   width: 70%;
+   margin: auto;
+   color: white;
+   display: flex;
+   align-items: start;
+   justify-content: space-between;
+}
+.div1, .div4{
+   width: 25%;
+}
+ .div2, .div3{
+   width: 20%;
+}
+.div2 h3, .div3 h3{
+   font-size: 25px;
+}
+ .div2 ul, .div3 ul, .div4 ul{
+   list-style: none;
+   margin-top: 35px;
+}
+.div2 li, .div3 li, .div4 li{
+   margin: 15px 0;
+}
+.div1, .div2 ul a, .div3 ul a, .div4 ul a{
+   text-decoration: none;
+   color: white;
+}
+.div1{
+   font-size: 20px;
+}
+.div1 p, img{
+   margin-bottom: 16px;
+}
+.fa-brands, .fa-solid, .fa-sharp{
+   margin-right: 15px;
+}
+footer hr{
+   width: 80%;
+   margin: auto;
+   margin-top: 65px;
+}
+#last-para{
+   color: white;
+   text-align: center;
+   margin-top: 20px;
+}
